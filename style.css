@@ -95,7 +95,7 @@ nav {
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
-    z-index: 2;
+    z-index: 10;
 }
 
 .logo img {
@@ -109,7 +109,7 @@ nav {
 }
 
 .nav-links a {
-    color: white;
+    color: var(--dark-color); /* Change to a visible color */
     font-weight: 500;
     position: relative;
     transition: var(--transition);
