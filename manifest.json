@@ -1,0 +1,16 @@
+{
+  "name": "Garden Apartment Cēsis",
+  "short_name": "Garden Apt",
+  "description": "Garden Apartment in Cēsis - A charming holiday home with a beautiful garden",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8F5F0",
+  "theme_color": "#5A8F3F",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    }
+  ]
+}
