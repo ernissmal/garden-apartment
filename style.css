@@ -1160,6 +1160,14 @@ footer a:hover {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000; /* Ensure it stays above other elements */
+    }
+
     .menu-toggle {
         display: block;
     }
@@ -1177,6 +1185,7 @@ footer a:hover {
         transform: translateY(-150%);
         transition: var(--transition);
         z-index: 10;
+        margin-top: 60px; /* Adjust for fixed nav height */
     }
     
     .nav-links.active {
